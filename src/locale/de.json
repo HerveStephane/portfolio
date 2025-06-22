@@ -267,6 +267,32 @@
   "home": "Startseite",
   "projects": "Projekte",
   "testimonials": "Referenzen",
-  "contact": "Kontakt"
+  "contact": "Kontakt",
+  "services": "Dienstleistungen"
+},
+"services": {
+  "cta": "Schreib mir an",
+  "heading": "Dienstleistungen & Preise",
+  "subheading": "Wählen Sie die passende Lösung für Ihre Bedürfnisse. Ich biete flexible Optionen für Ihren Erfolg.",
+  "plans": [
+    {
+      "title": "Starter",
+      "description": "Ideal für Einzelpersonen oder Startups mit professionellem Webauftritt.",
+      "price": "799 €",
+      "features": ["Responsives Design", "SEO-Optimierung", "Einfaches Kontaktformular"]
+    },
+    {
+      "title": "Professional",
+      "description": "Perfekt für wachsende Unternehmen mit digitalen Ambitionen.",
+      "price": "2,500 €",
+      "features": ["Alle Starter-Funktionen", "CMS-Integration", "Individuelle Animationen"]
+    },
+    {
+      "title": "Enterprise",
+      "description": "Maßgeschneiderte Lösungen für Unternehmen mit komplexen Anforderungen.",
+      "price": "Auf Anfrage",
+      "features": ["Alles aus Pro", "DevSecOps", "Performance-Audit", "Fortlaufender Support"]
+    }
+  ]
 }
 }

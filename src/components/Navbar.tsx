@@ -30,6 +30,11 @@ const Navbar: React.FC = () => {
             </a>
           </li>
           <li>
+            <a href="#services" className="hover:text-primary-600 transition">
+              {t('navbar.services')}
+            </a>
+          </li>
+          <li>
             <a href="#testimonial" className="hover:text-primary-600 transition">
               {t('navbar.testimonials')}
             </a>
@@ -85,6 +90,11 @@ const Navbar: React.FC = () => {
                 className="block hover:text-primary-600 transition"
               >
                 {t('navbar.testimonials')}
+              </a>
+            </li>
+            <li>
+              <a href="#services" className="hover:text-primary-600 transition">
+                {t('navbar.services')}
               </a>
             </li>
             <li>

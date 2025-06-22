@@ -281,6 +281,32 @@
     "home": "Home",
     "projects": "Projects",
     "testimonials": "Testimonials",
-    "contact": "Contact"
-  }
+    "contact": "Contact",
+    "services": "Services"
+  },
+  "services": {
+    "cta": "Get in touch",
+  "heading": "Services & Pricing",
+  "subheading": "Choose the right solution for your needs. I offer flexible options to support your success.",
+  "plans": [
+    {
+      "title": "Starter",
+      "description": "Ideal for individuals or startups wanting a professional online presence.",
+      "price": "$799",
+      "features": ["Responsive design", "SEO optimization", "Basic contact form"]
+    },
+    {
+      "title": "Professional",
+      "description": "Perfect for growing businesses looking to expand their digital reach.",
+      "price": "$2,500",
+      "features": ["All Starter features", "CMS integration", "Custom animations"]
+    },
+    {
+      "title": "Enterprise",
+      "description": "Tailored solutions for enterprises with complex needs.",
+      "price": "Contact me",
+      "features": ["Everything in Pro", "DevSecOps", "Performance audit", "Ongoing support"]
+    }
+  ]
+}
 }

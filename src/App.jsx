@@ -12,6 +12,7 @@ import LanguageSwitcher from './components/LanguageSwitcher';
 import Analytics from './components/Analytics';
 import Testimonials from './components/Testimonials';
 import Navbar from './components/Navbar';
+import Services from './components/Service';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
       <About />
       <Experience />
       <Projects />
+      <Services/>
       <Analytics/>
       <Education/>
       <Skills/>
