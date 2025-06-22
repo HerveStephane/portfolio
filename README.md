@@ -33,5 +33,5 @@ It showcases professional experience, projects, skills, education, and analytics
 1. Clone the repo:
 
 ```bash
-git clone https://github.com/yourusername/portfolio-landing-page.git
+git clone https://github.com/HerveStephane/portfolio.git
 cd portfolio-landing-page
