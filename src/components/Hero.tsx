@@ -6,7 +6,7 @@ function Hero() {
       <div className="bg-white rounded-3xl shadow-2xl max-w-4xl w-full flex flex-col md:flex-row items-center p-10 md:p-16 gap-8">
         {/* Profile Image */}
         <img
-          src="https://avatars.githubusercontent.com/u/your-github-username?v=4" // replace with your real photo URL or local import
+          src="/images/stephane.png" // replace with your real photo URL or local import
           alt="Hervé Stéphane Njanga Njafang"
           className="w-48 h-48 rounded-full object-cover border-4 border-blue-600"
         />

@@ -1,7 +1,7 @@
 
 const educationData = [
   {
-    logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Hochschule_Muenchen_Logo.svg/2560px-Hochschule_Muenchen_Logo.svg.png',
+    logo: "/images/hm.png",
     institution: 'Hochschule München University of Applied Sciences',
     degree: 'Master of Business Administration - MBA, Business Administration and Management, Engineering',
     period: 'Oct 2023 - Aug 2025',
@@ -17,7 +17,7 @@ const educationData = [
     ],
   },
   {
-    logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Hochschule_Muenchen_Logo.svg/2560px-Hochschule_Muenchen_Logo.svg.png',
+    logo: "/images/mannheim.jpg",
     institution: 'Hochschule München University of Applied Sciences',
     degree: 'Master of Science - MS, Aerospace, Aeronautical and Astronautical Engineering',
     period: '2019 - 2021',
@@ -30,7 +30,7 @@ const educationData = [
     skills: ['Business Strategy'],
   },
   {
-    logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/THM_Logo.svg/2560px-THM_Logo.svg.png',
+    logo: "/images/mannheim.jpg",
     institution: 'Technische Hochschule Mannheim',
     degree: 'Bachelor of Science - BS, Computertechnik/Computersystemtechnik',
     period: '2016 - 2019',
