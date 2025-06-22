@@ -1,4 +1,3 @@
-// components/LanguageSwitcher.tsx
 import React from 'react';
 import { useTranslation } from 'react-i18next';
 
@@ -6,7 +5,7 @@ const LanguageSwitcher: React.FC = () => {
   const { i18n } = useTranslation();
 
   return (
-    <div className="absolute top-4 right-4">
+    <div className="absolute top-4 right-4 z-50">
       <button
         onClick={() => i18n.changeLanguage('en')}
         className="mr-2 text-sm text-white"

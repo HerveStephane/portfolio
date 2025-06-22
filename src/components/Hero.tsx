@@ -6,14 +6,14 @@ function Hero() {
 
   // Split tagline parts and pair with icons
   const taglineParts = [
-    { icon: <FaGraduationCap className="inline text-blue-600 mr-2" />, text: t('hero.tagline.mba') },
-    { icon: <FaCode className="inline text-green-600 mr-2" />, text: t('hero.tagline.fullstack') },
-    { icon: <FaRocket className="inline text-purple-600 mr-2" />, text: t('hero.tagline.aerospace') },
-    { icon: <FaShieldAlt className="inline text-yellow-600 mr-2" />, text: t('hero.tagline.devsecops') },
+    { icon: <FaGraduationCap className="text-primary-600" />, text: t('hero.tagline.mba') },
+    { icon: <FaCode className="text-green-600" />, text: t('hero.tagline.fullstack') },
+    { icon: <FaRocket className="text-purple-600" />, text: t('hero.tagline.aerospace') },
+    { icon: <FaShieldAlt className="text-yellow-600" />, text: t('hero.tagline.devsecops') },
   ];
 
   return (
-    <section className="h-screen flex items-center justify-center bg-gradient-to-br from-primary-500 to-primary-700 px-6">
+    <section className="h-screen pt-16 flex items-center justify-center bg-gradient-to-br from-primary-500 to-primary-700 px-6">
       <div className="bg-white rounded-3xl shadow-2xl max-w-4xl w-full flex flex-col md:flex-row items-center p-10 md:p-16 gap-8">
         {/* Profile Image */}
         <img
@@ -30,9 +30,9 @@ function Hero() {
 
           <p className="text-xl text-gray-700 font-light max-w-md space-y-2">
             {taglineParts.map(({ icon, text }, i) => (
-              <span key={i} className="block">
-                {icon}
-                {text}
+              <span key={i} className="flex items-center space-x-2">
+                <span className="text-2xl">{icon}</span>
+                <span>{text}</span>
               </span>
             ))}
           </p>
