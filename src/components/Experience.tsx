@@ -1,4 +1,3 @@
-import React from 'react';
 import { useTranslation } from 'react-i18next';
 
 function Experience() {
@@ -15,7 +14,7 @@ function Experience() {
               key={idx}
               className="bg-white p-6 rounded-xl shadow hover:shadow-md transition"
             >
-              <p className="text-lg">{item}</p>
+              <p className="text-lg text-center">{item}</p>
             </div>
           ))}
         </div>

@@ -227,5 +227,37 @@
     "footer": {
     "copyright": "© {{year}} Hervé Stéphane Njanga Njafang. Alle Rechte vorbehalten.",
     "linkedin": "LinkedIn"
-  }
+  },
+  "testimonials": {
+    "heading": "Was Andere Sagen",
+    "subheading": "Erfahrungen von Kollegen, Kunden und Partnern, die mit mir zusammengearbeitet haben.",
+    "persons": [
+      {
+        "name": "Alice Johnson",
+        "role": "Projektleiterin bei TechCorp",
+        "feedback": "Hervés Führungsqualitäten und technische Fähigkeiten führten unser Projekt vorzeitig zum Erfolg."
+      },
+      {
+        "name": "Michael Smith",
+        "role": "CTO bei FinSolutions",
+        "feedback": "Ein brillanter Ingenieur mit großem Gespür für skalierbare Softwarearchitektur."
+      },
+      {
+        "name": "Sophie Müller",
+        "role": "Product Owner bei InnovateX",
+        "feedback": "Professionell, engagiert und innovativ – eine echte Bereicherung für jedes Team."
+      },
+      {
+        "name": "Lars Becker",
+        "role": "DevOps Spezialist",
+        "feedback": "Experte für DevSecOps, Hervé hat unsere CI/CD-Pipelines makellos optimiert."
+      }
+    ]
+  },
+  "navbar": {
+  "home": "Startseite",
+  "projects": "Projekte",
+  "testimonials": "Referenzen",
+  "contact": "Kontakt"
+}
 }

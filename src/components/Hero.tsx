@@ -13,7 +13,8 @@ function Hero() {
   ];
 
   return (
-    <section className="h-screen pt-16 flex items-center justify-center bg-gradient-to-br from-primary-500 to-primary-700 px-6">
+    <section id="hero" className="min-h-[80vh] flex items-center justify-center bg-gradient-to-br from-primary-500 to-primary-700 px-6 pt-20 pb-12">
+
       <div className="bg-white rounded-3xl shadow-2xl max-w-4xl w-full flex flex-col md:flex-row items-center p-10 md:p-16 gap-8">
         {/* Profile Image */}
         <img
