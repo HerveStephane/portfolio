@@ -49,6 +49,64 @@
         "description": "Developed scalable fintech applications addressing unique challenges in African financial ecosystems."
       }
     ]
+  },
+   "analytics": {
+    "heading": "Analytics & KPIs",
+    "items": [
+      { "label": "Projects Delivered", "value": "15+" },
+      { "label": "Years Experience", "value": "5+" },
+      { "label": "Cross-Functional Teams", "value": "10+" },
+      { "label": "Strategic Impact", "value": "Ongoing" }
+    ]
+  },
+   "education": {
+    "heading": "Education",
+    "items": [
+      {
+        "institution": "Hochschule München University of Applied Sciences",
+        "degree": "Master of Business Administration - MBA, Business Administration and Management, Engineering",
+        "period": "Oct 2023 - Aug 2025",
+        "grade": null,
+        "details": [
+          "Leadership and Upward Management",
+          "Strategy",
+          "Innovation Management",
+          "Sustainability",
+          "Lean Manufacturing and Administration",
+          "Economy",
+          "Evaluation of IT Trend",
+          "Product Management & Technical Sales"
+        ],
+        "skills": []
+      },
+      {
+        "institution": "Hochschule München University of Applied Sciences",
+        "degree": "Master of Science - MS, Aerospace, Aeronautical and Astronautical Engineering",
+        "period": "2019 - 2021",
+        "grade": "2.1",
+        "details": [
+          "Space Flight Dynamics and Space Environment",
+          "Propulsion Systems for Spacecraft",
+          "Space Systems Design"
+        ],
+        "skills": ["Business Strategy"]
+      },
+      {
+        "institution": "Technische Hochschule Mannheim",
+        "degree": "Bachelor of Science - BS, Computertechnik/Computersystemtechnik",
+        "period": "2016 - 2019",
+        "grade": "1.8",
+        "details": [
+          "Software development",
+          "Embedded System",
+          "High-Speed-Network Technology",
+          "Broadband and Information Technology"
+        ],
+        "skills": []
+      }
+    ],
+    "gradeLabel": "Grade",
+    "skillsLabel": "Skills"
   }
 
 }
