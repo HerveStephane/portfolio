@@ -34,7 +34,7 @@ function Education() {
               <img
                 src={logos[index]}
                 alt={`${edu.institution} logo`}
-                className="w-24 h-24 object-contain mb-4"
+                className="w-30 h-20 object-contain mb-4"
               />
               <h3 className="text-xl font-semibold mb-1 text-center">{edu.institution}</h3>
               <p className="text-gray-700 font-medium text-center mb-1">{edu.degree}</p>
@@ -49,11 +49,7 @@ function Education() {
                   <li key={idx} className="mb-1">{item}</li>
                 ))}
               </ul>
-              {edu.skills.length > 0 && (
-                <p className="mt-3 text-sm text-gray-600 italic">
-                  {skillsLabel}: {edu.skills.join(', ')}
-                </p>
-              )}
+           
             </div>
           ))}
         </div>

@@ -1,9 +1,14 @@
 {
   "hero": {
-    "name": "Hervé Stéphane Njanga Njafang",
-    "subtitle": "MBA-Kandidat | Softwareentwickler | DevSecOps & Strategie",
-    "connect": "Lass uns verbinden"
+  "name": "Hervé Stéphane Njanga Njafang",
+  "tagline": {
+    "mba": "Master of Science and MBA",
+    "fullstack": "Fullstack Softwareentwickler",
+    "aerospace": "Luft- und Raumfahrtingenieur",
+    "devsecops": "DevSecOps-Spezialist"
   },
+  "connect": "Lass uns verbinden"
+},
   "kpis": {
     "yearsExperience": "Jahre Erfahrung",
     "projectsDelivered": "Abgeschlossene Projekte",
@@ -64,16 +69,13 @@
     "items": [
       {
         "institution": "Hochschule München University of Applied Sciences",
-        "degree": "Master of Business Administration - MBA, Betriebswirtschaft und Management, Ingenieurwesen",
+        "degree": "Master of Business Administration - MBA, Betriebswirtschaft und Ingenieurwesen",
         "period": "Okt 2023 - Aug 2025",
-        "grade": null,
+        "grade": "1.8",
         "details": [
           "Führung und Aufwärtsmanagement",
           "Strategie",
           "Innovationsmanagement",
-          "Nachhaltigkeit",
-          "Lean Manufacturing und Administration",
-          "Wirtschaft",
           "Bewertung von IT-Trends",
           "Produktmanagement & Technischer Vertrieb"
         ],
