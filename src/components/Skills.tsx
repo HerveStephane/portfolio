@@ -4,16 +4,18 @@ import {
   SiKubernetes,
   SiDocker,
   SiHelm,
-
+  SiDotnet,
   SiCplusplus,
   SiC,
-  SiPython,
+  SiReact,
+  SiTypescript,
   SiGithub,
   SiGit,
   SiRaspberrypi,
   SiArduino,
   SiQt,
 } from 'react-icons/si';
+import { VscAzureDevops } from "react-icons/vsc";
 import { FaBusinessTime, FaProjectDiagram } from 'react-icons/fa';
 
 // Categorized skill data with icons
@@ -27,9 +29,11 @@ const skillsData = {
   ],
 
   "Programming & Frameworks": [
+    { name: "C#", description: "5 years Software Enginner at ASMPT", Icon: SiDotnet },
     { name: "C++", description: "2 experiences across Fraunhofer IIS and 1 other company", Icon: SiCplusplus },
-    { name: "C", description: "2 experiences across Hochschule Mannheim and 1 other company", Icon: SiC },
-    { name: "Python", description: "Intern at Fraunhofer IIS", Icon: SiPython },
+    { name: "TypeScript", description: "Cofounded Fintech company", Icon: SiTypescript },
+    { name: "React", description: "Digitalisation project in multiple african country", Icon: SiReact },
+    
 
   ],
 
@@ -52,14 +56,7 @@ const skillsData = {
   "Tools & Platforms": [
     { name: "GitHub", description: "", Icon: SiGithub },
     { name: "Git", description: "1 endorsement", Icon: SiGit },
-    { name: "TFSA", description: "Software Engineer at ASMPT Ltd", Icon: FaProjectDiagram },
-  ],
-
-  "Design & UX": [
-    { name: "Interaktionsdesign", description: "1 endorsement", Icon: FaProjectDiagram },
-    { name: "UX-Design", description: "1 endorsement", Icon: FaProjectDiagram },
-    { name: "Usability", description: "1 endorsement", Icon: FaProjectDiagram },
-    { name: "Usability-Tests", description: "1 endorsement", Icon: FaProjectDiagram },
+    { name: "VS Azure devops", description: "Software Engineer at ASMPT Ltd", Icon: VscAzureDevops },
   ],
 
   "Hardware & Embedded": [
