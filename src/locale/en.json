@@ -1,14 +1,15 @@
-{"hero": {
-  "name": "Hervé Stéphane Njanga Njafang",
-  "tagline": {
-    "mba": "Master of Science and MBA",
-    "fullstack": "Fullstack Software Engineer",
-    "aerospace": "Aerospace Engineer",
-    "devsecops": "DevSecOps Specialist"
+{
+  "hero": {
+    "name": "Hervé Stéphane Njanga Njafang",
+    "tagline": {
+      "mba": "Master of Science and MBA",
+      "fullstack": "Fullstack Software Engineer",
+      "aerospace": "Aerospace Engineer",
+      "devsecops": "DevSecOps Specialist"
+    },
+    "connect": "Let’s Connect"
   },
-  "connect": "Let’s Connect"
-},
-    "kpis": {
+  "kpis": {
     "yearsExperience": "Years Experience",
     "projectsDelivered": "Projects Delivered",
     "industriesServed": "Industries Served",
@@ -18,11 +19,11 @@
     "industriesServedValue": "4",
     "degreesEarnedValue": "3"
   },
-   "about": {
+  "about": {
     "heading": "About Me",
     "description": "I am an MBA candidate and experienced Software Engineer based in Munich with a background in aerospace, cloud-native systems, and strategic innovation. My work focuses on DevSecOps, CI/CD pipelines, automation, and infrastructure for complex applications. Through roles at ASMPT, ALTEN, and MdynamiX, I’ve developed a robust ability to blend technical expertise with strategic vision."
   },
-    "experience": {
+  "experience": {
     "heading": "Experience Highlights",
     "items": [
       "💡 Software Engineer @ ASMPT: CI/CD pipelines, DevOps infra, test automation in C#",
@@ -32,38 +33,55 @@
       "✈️ MSc Aerospace Engineering: Space systems, propulsion, flight dynamics"
     ]
   },
-    "projects": {
+  "projects": {
+    "visitLink": "Visit Project Website",
     "heading": "Strategic Projects",
     "subheading": "Key initiatives I've driven across engineering and business strategy:",
     "items": [
       {
         "title": "DevOps Infrastructure for ASMPT",
-        "description": "Designed and deployed automated testing and CI/CD pipelines, improving release efficiency and quality assurance."
+        "description": "Designed and deployed automated testing and CI/CD pipelines, improving release efficiency and quality assurance.",
+        "webpage": "https://example-ai.com"
       },
       {
         "title": "Business-Focused DevSecOps Research",
-        "description": "Conducted in-depth analysis of DevSecOps challenges for cloud-native platforms leveraging Kubernetes and Docker."
+        "description": "Conducted in-depth analysis of DevSecOps challenges for cloud-native platforms leveraging Kubernetes and Docker.",
+        "webpage": "https://example-ai.com"
       },
       {
         "title": "Strategic Digital Solution for Government in Gabon",
-        "description": "Created innovative digital platforms to enhance government service delivery and citizen engagement."
+        "description": "Created innovative digital platforms to enhance government service delivery and citizen engagement.",
+        "webpage": "https://example-ai.com"
       },
       {
         "title": "Fintech Solution for African Market",
-        "description": "Developed scalable fintech applications addressing unique challenges in African financial ecosystems."
+        "description": "Developed scalable fintech applications addressing unique challenges in African financial ecosystems.",
+        "webpage": "https://example-ai.com"
       }
     ]
   },
-   "analytics": {
+  "analytics": {
     "heading": "Analytics & KPIs",
     "items": [
-      { "label": "Projects Delivered", "value": "15+" },
-      { "label": "Years Experience", "value": "7+" },
-      { "label": "Cross-Functional Teams", "value": "10+" },
-      { "label": "Strategic Impact", "value": "Ongoing" }
+      {
+        "label": "Projects Delivered",
+        "value": "15+"
+      },
+      {
+        "label": "Years Experience",
+        "value": "7+"
+      },
+      {
+        "label": "Cross-Functional Teams",
+        "value": "10+"
+      },
+      {
+        "label": "Strategic Impact",
+        "value": "Ongoing"
+      }
     ]
   },
-   "education": {
+  "education": {
     "heading": "Education",
     "items": [
       {
@@ -90,7 +108,9 @@
           "Propulsion Systems for Spacecraft",
           "Space Systems Design"
         ],
-        "skills": ["Business Strategy"]
+        "skills": [
+          "Business Strategy"
+        ]
       },
       {
         "institution": "Technische Hochschule Mannheim",
@@ -109,7 +129,7 @@
     "gradeLabel": "Grade",
     "skillsLabel": "Skills"
   },
-    "skills": {
+  "skills": {
     "heading": "Skills & Expertise",
     "categories": {
       "cloud": "Cloud & DevOps",
@@ -218,46 +238,49 @@
       }
     }
   },
-   "contact": {
+  "contact": {
     "heading": "Get In Touch",
     "description": "Open to strategy, tech leadership, and innovation roles across Europe and beyond.",
     "button": "Email Me"
   },
-   "footer": {
+  "footer": {
     "copyright": "© {{year}} Hervé Stéphane Njanga Njafang. All rights reserved.",
     "linkedin": "LinkedIn"
   },
-   "testimonials": {
+  "testimonials": {
     "heading": "What People Say",
     "subheading": "Testimonials from colleagues, clients, and partners who have worked with me.",
     "persons": [
       {
         "name": "Alice Johnson",
         "role": "Project Manager at TechCorp",
-        "feedback": "Hervé’s leadership and technical skills brought our project to success ahead of schedule."
+        "feedback": "Hervé’s leadership and technical skills brought our project to success ahead of schedule.",
+        "linkedin": "https://linkedin.com/in/janedoe"
       },
       {
         "name": "Michael Smith",
         "role": "CTO at FinSolutions",
-        "feedback": "A brilliant engineer with a great vision for scalable software architecture."
+        "feedback": "A brilliant engineer with a great vision for scalable software architecture.",
+        "linkedin": "https://linkedin.com/in/janedoe"
       },
       {
         "name": "Sophie Müller",
         "role": "Product Owner at InnovateX",
-        "feedback": "Professional, dedicated, and innovative — a true asset to any team."
+        "feedback": "Professional, dedicated, and innovative — a true asset to any team.",
+        "linkedin": "https://linkedin.com/in/janedoe"
       },
       {
         "name": "Lars Becker",
         "role": "DevOps Specialist",
-        "feedback": "Expert in DevSecOps practices, Hervé streamlined our CI/CD pipelines flawlessly."
+        "feedback": "Expert in DevSecOps practices, Hervé streamlined our CI/CD pipelines flawlessly.",
+        "linkedin": "https://linkedin.com/in/janedoe"
       }
     ]
   },
   "navbar": {
-  "home": "Home",
-  "projects": "Projects",
-  "testimonials": "Testimonials",
-  "contact": "Contact"
-}
-
+    "home": "Home",
+    "projects": "Projects",
+    "testimonials": "Testimonials",
+    "contact": "Contact"
+  }
 }

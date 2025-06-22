@@ -1,5 +1,5 @@
 import { useTranslation } from 'react-i18next';
-import { FiCpu, FiBox, FiGlobe, FiCreditCard } from 'react-icons/fi';
+import { FiCpu, FiBox, FiGlobe, FiCreditCard, FiExternalLink } from 'react-icons/fi';
 
 function Projects() {
   const { t } = useTranslation();
@@ -14,6 +14,7 @@ function Projects() {
   const projects = t('projects.items', { returnObjects: true }) as {
     title: string;
     description: string;
+    webpage?: string;
   }[];
 
   return (
@@ -24,14 +25,25 @@ function Projects() {
           {t('projects.subheading')}
         </p>
         <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
-          {projects.map(({ title, description }, idx) => (
+          {projects.map(({ title, description, webpage }, idx) => (
             <div
               key={idx}
-              className="bg-white rounded-2xl shadow-lg p-8 transition transform hover:-translate-y-2 hover:shadow-2xl duration-300 cursor-pointer"
+              className="bg-white rounded-2xl shadow-lg p-8 transition transform hover:-translate-y-2 hover:shadow-2xl duration-300 flex flex-col justify-between"
             >
               <div className="flex justify-center">{icons[idx]}</div>
               <h3 className="text-2xl font-semibold mb-4 text-blue-700">{title}</h3>
-              <p className="text-gray-700 leading-relaxed text-left">{description}</p>
+              <p className="text-gray-700 leading-relaxed mb-6">{description}</p>
+              {webpage && (
+                <a
+                  href={webpage}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center text-blue-600 hover:underline mt-auto"
+                >
+                  <FiExternalLink className="mr-2" />
+                  {t('projects.visitLink', 'Visit Project Website')}
+                </a>
+              )}
             </div>
           ))}
         </div>

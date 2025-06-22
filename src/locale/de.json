@@ -35,23 +35,28 @@
   },
     "projects": {
     "heading": "Strategische Projekte",
+    "visitLink": "Projektwebseite besuchen",
     "subheading": "Schlüsselinitiativen, die ich in Technik und Geschäftsstrategie vorangetrieben habe:",
     "items": [
       {
         "title": "DevOps-Infrastruktur für ASMPT",
-        "description": "Entwicklung und Bereitstellung automatisierter Tests und CI/CD-Pipelines zur Verbesserung der Release-Effizienz und Qualitätssicherung."
+        "description": "Entwicklung und Bereitstellung automatisierter Tests und CI/CD-Pipelines zur Verbesserung der Release-Effizienz und Qualitätssicherung.",
+        "webpage": "https://example-ai.com"
       },
       {
         "title": "Geschäftsorientierte DevSecOps-Forschung",
-        "description": "Durchführung einer eingehenden Analyse der DevSecOps-Herausforderungen für cloudnative Plattformen mit Kubernetes und Docker."
+        "description": "Durchführung einer eingehenden Analyse der DevSecOps-Herausforderungen für cloudnative Plattformen mit Kubernetes und Docker.",
+        "webpage": "https://example-ai.com"
       },
       {
         "title": "Strategische digitale Lösung für die Regierung in Gabun",
-        "description": "Erstellung innovativer digitaler Plattformen zur Verbesserung der Regierungsdienste und Bürgerbeteiligung."
+        "description": "Erstellung innovativer digitaler Plattformen zur Verbesserung der Regierungsdienste und Bürgerbeteiligung.",
+        "webpage": "https://example-ai.com"
       },
       {
         "title": "Fintech-Lösung für den afrikanischen Markt",
-        "description": "Entwicklung skalierbarer Fintech-Anwendungen zur Bewältigung einzigartiger Herausforderungen in afrikanischen Finanzökosystemen."
+        "description": "Entwicklung skalierbarer Fintech-Anwendungen zur Bewältigung einzigartiger Herausforderungen in afrikanischen Finanzökosystemen.",
+        "webpage": "https://example-ai.com"
       }
     ]
   },
@@ -235,22 +240,26 @@
       {
         "name": "Alice Johnson",
         "role": "Projektleiterin bei TechCorp",
-        "feedback": "Hervés Führungsqualitäten und technische Fähigkeiten führten unser Projekt vorzeitig zum Erfolg."
+        "feedback": "Hervés Führungsqualitäten und technische Fähigkeiten führten unser Projekt vorzeitig zum Erfolg.",
+        "linkedin": "https://linkedin.com/in/janedoe"
       },
       {
         "name": "Michael Smith",
         "role": "CTO bei FinSolutions",
-        "feedback": "Ein brillanter Ingenieur mit großem Gespür für skalierbare Softwarearchitektur."
+        "feedback": "Ein brillanter Ingenieur mit großem Gespür für skalierbare Softwarearchitektur.",
+        "linkedin": "https://linkedin.com/in/janedoe"
       },
       {
         "name": "Sophie Müller",
         "role": "Product Owner bei InnovateX",
-        "feedback": "Professionell, engagiert und innovativ – eine echte Bereicherung für jedes Team."
+        "feedback": "Professionell, engagiert und innovativ – eine echte Bereicherung für jedes Team.",
+        "linkedin": "https://linkedin.com/in/janedoe"
       },
       {
         "name": "Lars Becker",
         "role": "DevOps Spezialist",
-        "feedback": "Experte für DevSecOps, Hervé hat unsere CI/CD-Pipelines makellos optimiert."
+        "feedback": "Experte für DevSecOps, Hervé hat unsere CI/CD-Pipelines makellos optimiert.",
+        "linkedin": "https://linkedin.com/in/janedoe"
       }
     ]
   },

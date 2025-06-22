@@ -1,13 +1,14 @@
 import { useTranslation } from 'react-i18next';
+import { FiLinkedin } from 'react-icons/fi';
 
 function Testimonials() {
   const { t } = useTranslation();
 
-  // Get the array of testimonial persons from translation
   const persons = t('testimonials.persons', { returnObjects: true }) as Array<{
     name: string;
     role: string;
     feedback: string;
+    linkedin: string;
   }>;
 
   return (
@@ -17,7 +18,7 @@ function Testimonials() {
         <p className="text-lg text-gray-700 mb-12 max-w-3xl mx-auto">{t('testimonials.subheading')}</p>
 
         <div className="grid gap-10 sm:grid-cols-2 lg:grid-cols-4">
-          {persons.map(({ name, role, feedback }, index) => (
+          {persons.map(({ name, role, feedback, linkedin }, index) => (
             <div
               key={index}
               className="bg-white rounded-xl shadow-lg p-6 flex flex-col justify-between"
@@ -25,7 +26,19 @@ function Testimonials() {
               <p className="text-gray-800 italic mb-6">“{feedback}”</p>
               <div>
                 <h3 className="text-lg font-semibold text-blue-700">{name}</h3>
-                <p className="text-sm text-gray-500">{role}</p>
+                <p className="text-sm text-gray-500 mb-2">{role}</p>
+                {linkedin && (
+                  <a
+                    href={linkedin}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label={`${name} LinkedIn`}
+                    className="inline-flex items-center text-blue-600 hover:text-blue-800"
+                  >
+                    <FiLinkedin className="mr-1" />
+                    LinkedIn
+                  </a>
+                )}
               </div>
             </div>
           ))}

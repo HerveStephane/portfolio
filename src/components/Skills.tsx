@@ -1,7 +1,7 @@
 import { useTranslation } from 'react-i18next';
 import {
   SiArgo, SiKubernetes, SiDocker, SiHelm, SiDotnet, SiCplusplus, SiTypescript,
-  SiReact, SiGithub, SiGit, SiRaspberrypi, SiArduino, SiQt
+  SiReact, SiGithub, SiGit, SiRaspberrypi, SiArduino, SiQt,SiEnterprisedb
 } from 'react-icons/si';
 import { VscAzureDevops } from 'react-icons/vsc';
 import { FaBusinessTime, FaProjectDiagram } from 'react-icons/fa';
@@ -22,26 +22,21 @@ const skillsConfig = {
   ],
   management: [
     { key: 'businessStrategy', Icon: FaBusinessTime },
-    { key: 'intrapreneurship', Icon: FaProjectDiagram },
+    { key: 'intrapreneurship', Icon: SiEnterprisedb },
     { key: 'management', Icon: FaBusinessTime },
   ],
   architecture: [
-    { key: 'architectureDesign', Icon: FaProjectDiagram },
-    { key: 'patterns', Icon: FaProjectDiagram },
-    { key: 'systemArchitecture', Icon: FaProjectDiagram },
-    { key: 'solid', Icon: FaProjectDiagram },
-    { key: 'designPatterns', Icon: FaProjectDiagram },
-    { key: 'webservices', Icon: FaProjectDiagram },
+    { key: 'architectureDesign', Icon: SiDotnet },
+    { key: 'patterns', Icon: SiDotnet },
+    { key: 'systemArchitecture', Icon: SiDotnet },
+    { key: 'solid', Icon: SiDotnet },
+    { key: 'designPatterns', Icon: SiDotnet },
+    { key: 'webservices', Icon: SiDotnet },
   ],
   tools: [
     { key: 'github', Icon: SiGithub },
     { key: 'git', Icon: SiGit },
     { key: 'azure', Icon: VscAzureDevops },
-  ],
-  hardware: [
-    { key: 'raspberry', Icon: SiRaspberrypi },
-    { key: 'arduino', Icon: SiArduino },
-    { key: 'qt', Icon: SiQt },
   ],
 };
 
