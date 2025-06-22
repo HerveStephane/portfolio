@@ -6,7 +6,7 @@ function Footer() {
   const year = new Date().getFullYear();
 
   return (
-    <footer className="bg-gradient-to-r from-blue-900 to-indigo-800 text-white py-8 px-6">
+    <footer className="bg-gradient-to-r from-primary-700 to-primary-900 text-white py-8 px-6">
       <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-between">
         <p className="text-sm md:text-base mb-4 md:mb-0">
           {t('footer.copyright', { year })}

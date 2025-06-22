@@ -4,10 +4,7 @@ function Contact() {
   const { t } = useTranslation();
 
   return (
-    <section
-      id="contact"
-      className="bg-gradient-to-br from-blue-900 to-indigo-800 text-white py-24 px-6 text-center"
-    >
+    <section id="contact" className="bg-gradient-to-br from-primary-700 to-primary-900 text-white py-24 px-6 text-center">
       <h2 className="text-4xl font-bold mb-4">{t('contact.heading')}</h2>
       <p className="text-lg mb-8">{t('contact.description')}</p>
       <a

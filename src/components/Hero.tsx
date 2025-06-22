@@ -13,7 +13,7 @@ function Hero() {
   ];
 
   return (
-    <section className="h-screen flex items-center justify-center bg-gradient-to-br from-blue-800 to-purple-700 px-6">
+    <section className="h-screen flex items-center justify-center bg-gradient-to-br from-primary-500 to-primary-700 px-6">
       <div className="bg-white rounded-3xl shadow-2xl max-w-4xl w-full flex flex-col md:flex-row items-center p-10 md:p-16 gap-8">
         {/* Profile Image */}
         <img
