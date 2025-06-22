@@ -1,11 +1,32 @@
+import React from 'react';
+
 function Hero() {
   return (
-    <section className="h-screen flex flex-col justify-center items-center bg-gradient-to-br from-blue-800 to-purple-700 text-white text-center px-6">
-      <h1 className="text-5xl md:text-7xl font-extrabold mb-6 leading-tight">Hi, I’m Hervé Stéphane Njanga Njafang</h1>
-      <p className="text-2xl md:text-3xl mb-8 font-light">MBA | Software Engineer | DevSecOps & Strategy</p>
-      <a href="#contact" className="bg-white text-blue-800 px-8 py-4 rounded-full font-semibold shadow-xl hover:bg-gray-100 transition-all duration-300">
-        Let’s Connect
-      </a>
+    <section className="h-screen flex items-center justify-center bg-gradient-to-br from-blue-800 to-purple-700 px-6">
+      <div className="bg-white rounded-3xl shadow-2xl max-w-4xl w-full flex flex-col md:flex-row items-center p-10 md:p-16 gap-8">
+        {/* Profile Image */}
+        <img
+          src="https://avatars.githubusercontent.com/u/your-github-username?v=4" // replace with your real photo URL or local import
+          alt="Hervé Stéphane Njanga Njafang"
+          className="w-48 h-48 rounded-full object-cover border-4 border-blue-600"
+        />
+
+        {/* Text Content */}
+        <div className="text-center md:text-left flex flex-col items-center md:items-start gap-4">
+          <h1 className="text-5xl font-extrabold text-gray-900 leading-tight">
+            Hervé Stéphane Njanga Njafang
+          </h1>
+          <p className="text-xl text-gray-700 font-light max-w-md">
+            MBA Candidate | Software Engineer | DevSecOps & Strategy
+          </p>
+          <a
+            href="#contact"
+            className="mt-6 inline-block bg-blue-700 text-white px-8 py-3 rounded-full font-semibold shadow-lg hover:bg-blue-800 transition"
+          >
+            Let’s Connect
+          </a>
+        </div>
+      </div>
     </section>
   );
 }
