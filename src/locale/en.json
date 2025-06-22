@@ -1,0 +1,21 @@
+{
+  "hero": {
+    "name": "Hervé Stéphane Njanga Njafang",
+    "subtitle": "MBA Candidate | Software Engineer | DevSecOps & Strategy",
+    "connect": "Let’s Connect"
+  },
+    "kpis": {
+    "yearsExperience": "Years Experience",
+    "projectsDelivered": "Projects Delivered",
+    "industriesServed": "Industries Served",
+    "degreesEarned": "Degrees Earned",
+    "yearsExperienceValue": "7+",
+    "projectsDeliveredValue": "15+",
+    "industriesServedValue": "4",
+    "degreesEarnedValue": "3"
+  },
+   "about": {
+    "heading": "About Me",
+    "description": "I am an MBA candidate and experienced Software Engineer based in Munich with a background in aerospace, cloud-native systems, and strategic innovation. My work focuses on DevSecOps, CI/CD pipelines, automation, and infrastructure for complex applications. Through roles at ASMPT, ALTEN, and MdynamiX, I’ve developed a robust ability to blend technical expertise with strategic vision."
+  }
+}
