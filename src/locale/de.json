@@ -107,5 +107,123 @@
     ],
     "gradeLabel": "Note",
     "skillsLabel": "Fähigkeiten"
+  },
+  "skills": {
+    "heading": "Fähigkeiten & Fachwissen",
+    "categories": {
+      "cloud": "Cloud & DevOps",
+      "programming": "Programmierung & Frameworks",
+      "management": "Management & Strategie",
+      "architecture": "Softwarearchitektur",
+      "tools": "Tools & Plattformen",
+      "hardware": "Hardware & Embedded"
+    },
+    "items": {
+      "argocd": {
+        "name": "ArgoCD",
+        "description": "Masterarbeit an der Hochschule München"
+      },
+      "kubernetes": {
+        "name": "Kubernetes",
+        "description": "Masterarbeit an der Hochschule München"
+      },
+      "docker": {
+        "name": "Docker",
+        "description": "Masterarbeit an der Hochschule München"
+      },
+      "helm": {
+        "name": "Helm Charts",
+        "description": "Masterarbeit an der Hochschule München"
+      },
+      "harbor": {
+        "name": "Harbor",
+        "description": "Masterarbeit an der Hochschule München"
+      },
+      "csharp": {
+        "name": "C#",
+        "description": "5 Jahre Softwareentwickler bei ASMPT"
+      },
+      "cpp": {
+        "name": "C++",
+        "description": "2 Einsätze bei Fraunhofer IIS und einem weiteren Unternehmen"
+      },
+      "typescript": {
+        "name": "TypeScript",
+        "description": "Mitgründer eines Fintech-Unternehmens"
+      },
+      "react": {
+        "name": "React",
+        "description": "Digitalisierungsprojekt in mehreren afrikanischen Ländern"
+      },
+      "businessStrategy": {
+        "name": "Geschäftsstrategie",
+        "description": "Hochschule München"
+      },
+      "intrapreneurship": {
+        "name": "Intrapreneurship",
+        "description": "Young Talents Programme Rising bei ASMPT Ltd"
+      },
+      "management": {
+        "name": "Management",
+        "description": "Young Talents Programme Rising bei ASMPT Ltd"
+      },
+      "architectureDesign": {
+        "name": "Softwarearchitektur Design",
+        "description": ".NET - Moderne Architekturen und Designprinzipien"
+      },
+      "patterns": {
+        "name": "Architekturmuster",
+        "description": ".NET - Moderne Architekturen und Designprinzipien"
+      },
+      "systemArchitecture": {
+        "name": "Systemarchitektur",
+        "description": ".NET - Moderne Architekturen und Designprinzipien"
+      },
+      "solid": {
+        "name": "SOLID Designprinzipien",
+        "description": ".NET - Moderne Architekturen und Designprinzipien"
+      },
+      "designPatterns": {
+        "name": "Entwurfsmuster",
+        "description": ".NET - Moderne Architekturen und Designprinzipien"
+      },
+      "webservices": {
+        "name": "Webdienste",
+        "description": ".NET - Moderne Architekturen und Designprinzipien"
+      },
+      "github": {
+        "name": "GitHub",
+        "description": ""
+      },
+      "git": {
+        "name": "Git",
+        "description": "1 Empfehlung"
+      },
+      "azure": {
+        "name": "VS Azure DevOps",
+        "description": "Softwareentwickler bei ASMPT Ltd"
+      },
+      "raspberry": {
+        "name": "Raspberry Pi",
+        "description": "Bachelorarbeit an der Hochschule Mannheim"
+      },
+      "arduino": {
+        "name": "Arduino",
+        "description": ""
+      },
+      "qt": {
+        "name": "Qt",
+        "description": "Praktikum bei Fraunhofer IIS"
+      }
+    }
+  },
+    "contact": {
+    "heading": "Kontakt aufnehmen",
+    "description": "Offen für Strategien, technische Führungsrollen und Innovationsprojekte in Europa und darüber hinaus.",
+    "button": "Schreib mir eine E-Mail"
+  },
+    "footer": {
+    "copyright": "© {{year}} Hervé Stéphane Njanga Njafang. Alle Rechte vorbehalten.",
+    "linkedin": "LinkedIn"
   }
 }

@@ -1,12 +1,15 @@
-
 import { FiLinkedin } from 'react-icons/fi';
+import { useTranslation } from 'react-i18next';
 
 function Footer() {
+  const { t } = useTranslation();
+  const year = new Date().getFullYear();
+
   return (
     <footer className="bg-gradient-to-r from-blue-900 to-indigo-800 text-white py-8 px-6">
       <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-between">
         <p className="text-sm md:text-base mb-4 md:mb-0">
-          © {new Date().getFullYear()} Hervé Stéphane Njanga Njafang. All rights reserved.
+          {t('footer.copyright', { year })}
         </p>
         <a
           href="https://www.linkedin.com/in/herve-stephane-njanga-njafang-73055b142/"
@@ -16,7 +19,7 @@ function Footer() {
           aria-label="LinkedIn Profile"
         >
           <FiLinkedin size={24} />
-          <span className="font-semibold">LinkedIn</span>
+          <span className="font-semibold">{t('footer.linkedin')}</span>
         </a>
       </div>
     </footer>

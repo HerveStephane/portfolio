@@ -107,6 +107,124 @@
     ],
     "gradeLabel": "Grade",
     "skillsLabel": "Skills"
+  },
+    "skills": {
+    "heading": "Skills & Expertise",
+    "categories": {
+      "cloud": "Cloud & DevOps",
+      "programming": "Programming & Frameworks",
+      "management": "Management & Strategy",
+      "architecture": "Software Architecture",
+      "tools": "Tools & Platforms",
+      "hardware": "Hardware & Embedded"
+    },
+    "items": {
+      "argocd": {
+        "name": "ArgoCD",
+        "description": "Master Thesis at Hochschule München University of Applied Sciences"
+      },
+      "kubernetes": {
+        "name": "Kubernetes",
+        "description": "Master Thesis at Hochschule München University of Applied Sciences"
+      },
+      "docker": {
+        "name": "Docker",
+        "description": "Master Thesis at Hochschule München University of Applied Sciences"
+      },
+      "helm": {
+        "name": "Helm Charts",
+        "description": "Master Thesis at Hochschule München University of Applied Sciences"
+      },
+      "harbor": {
+        "name": "Harbor",
+        "description": "Master Thesis at Hochschule München University of Applied Sciences"
+      },
+      "csharp": {
+        "name": "C#",
+        "description": "5 years Software Engineer at ASMPT"
+      },
+      "cpp": {
+        "name": "C++",
+        "description": "2 experiences across Fraunhofer IIS and 1 other company"
+      },
+      "typescript": {
+        "name": "TypeScript",
+        "description": "Cofounded Fintech company"
+      },
+      "react": {
+        "name": "React",
+        "description": "Digitalisation project in multiple African countries"
+      },
+      "businessStrategy": {
+        "name": "Business Strategy",
+        "description": "Munich University of Applied Sciences"
+      },
+      "intrapreneurship": {
+        "name": "Intrapreneurship",
+        "description": "Young Talents Programme Rising at ASMPT Ltd"
+      },
+      "management": {
+        "name": "Management",
+        "description": "Young Talents Programme Rising at ASMPT Ltd"
+      },
+      "architectureDesign": {
+        "name": "Software Architectural Design",
+        "description": ".NET - Modern Architectures and Design Principles"
+      },
+      "patterns": {
+        "name": "Architectural Patterns",
+        "description": ".NET - Modern Architectures and Design Principles"
+      },
+      "systemArchitecture": {
+        "name": "System Architecture",
+        "description": ".NET - Modern Architectures and Design Principles"
+      },
+      "solid": {
+        "name": "SOLID Design Principles",
+        "description": ".NET - Modern Architectures and Design Principles"
+      },
+      "designPatterns": {
+        "name": "Software Design Patterns",
+        "description": ".NET - Modern Architectures and Design Principles"
+      },
+      "webservices": {
+        "name": "Web Services",
+        "description": ".NET - Modern Architectures and Design Principles"
+      },
+      "github": {
+        "name": "GitHub",
+        "description": ""
+      },
+      "git": {
+        "name": "Git",
+        "description": "1 endorsement"
+      },
+      "azure": {
+        "name": "VS Azure DevOps",
+        "description": "Software Engineer at ASMPT Ltd"
+      },
+      "raspberry": {
+        "name": "Raspberry Pi",
+        "description": "Bachelor Thesis at Hochschule Mannheim"
+      },
+      "arduino": {
+        "name": "Arduino",
+        "description": ""
+      },
+      "qt": {
+        "name": "Qt",
+        "description": "Intern at Fraunhofer IIS"
+      }
+    }
+  },
+   "contact": {
+    "heading": "Get In Touch",
+    "description": "Open to strategy, tech leadership, and innovation roles across Europe and beyond.",
+    "button": "Email Me"
+  },
+   "footer": {
+    "copyright": "© {{year}} Hervé Stéphane Njanga Njafang. All rights reserved.",
+    "linkedin": "LinkedIn"
   }
 
 }

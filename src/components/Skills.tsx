@@ -1,91 +1,74 @@
-
+import { useTranslation } from 'react-i18next';
 import {
-  SiArgo,
-  SiKubernetes,
-  SiDocker,
-  SiHelm,
-  SiDotnet,
-  SiCplusplus,
-  SiC,
-  SiReact,
-  SiTypescript,
-  SiGithub,
-  SiGit,
-  SiRaspberrypi,
-  SiArduino,
-  SiQt,
+  SiArgo, SiKubernetes, SiDocker, SiHelm, SiDotnet, SiCplusplus, SiTypescript,
+  SiReact, SiGithub, SiGit, SiRaspberrypi, SiArduino, SiQt
 } from 'react-icons/si';
-import { VscAzureDevops } from "react-icons/vsc";
+import { VscAzureDevops } from 'react-icons/vsc';
 import { FaBusinessTime, FaProjectDiagram } from 'react-icons/fa';
 
-// Categorized skill data with icons
-const skillsData = {
-  "Cloud & DevOps": [
-    { name: "ArgoCD", description: "Master Thesis at Hochschule München University of Applied Sciences", Icon: SiArgo },
-    { name: "Kubernetes", description: "Master Thesis at Hochschule München University of Applied Sciences", Icon: SiKubernetes },
-    { name: "Docker", description: "Master Thesis at Hochschule München University of Applied Sciences", Icon: SiDocker },
-    { name: "Helm Charts", description: "Master Thesis at Hochschule München University of Applied Sciences", Icon: SiHelm },
-    { name: "Harbor", description: "Master Thesis at Hochschule München University of Applied Sciences", Icon: SiDocker }, // no official icon, reuse Docker icon
+const skillsConfig = {
+  cloud: [
+    { key: 'argocd', Icon: SiArgo },
+    { key: 'kubernetes', Icon: SiKubernetes },
+    { key: 'docker', Icon: SiDocker },
+    { key: 'helm', Icon: SiHelm },
+    { key: 'harbor', Icon: SiDocker },
   ],
-
-  "Programming & Frameworks": [
-    { name: "C#", description: "5 years Software Enginner at ASMPT", Icon: SiDotnet },
-    { name: "C++", description: "2 experiences across Fraunhofer IIS and 1 other company", Icon: SiCplusplus },
-    { name: "TypeScript", description: "Cofounded Fintech company", Icon: SiTypescript },
-    { name: "React", description: "Digitalisation project in multiple african country", Icon: SiReact },
-    
-
+  programming: [
+    { key: 'csharp', Icon: SiDotnet },
+    { key: 'cpp', Icon: SiCplusplus },
+    { key: 'typescript', Icon: SiTypescript },
+    { key: 'react', Icon: SiReact },
   ],
-
-  "Management & Strategy": [
-    { name: "Business Strategy", description: "Munich University of Applied Sciences", Icon: FaBusinessTime },
-    { name: "Intrapreneurship", description: "Young Talents Programme Rising at ASMPT Ltd", Icon: FaProjectDiagram },
-    { name: "Management", description: "Young Talents Programme Rising at ASMPT Ltd", Icon: FaBusinessTime },
+  management: [
+    { key: 'businessStrategy', Icon: FaBusinessTime },
+    { key: 'intrapreneurship', Icon: FaProjectDiagram },
+    { key: 'management', Icon: FaBusinessTime },
   ],
-
-  "Software Architecture": [
-    // No official icons here, use general project or code icon
-    { name: "Software Architectural Design", description: ".NET - Moderne Architekturen und Designprinzipien", Icon: FaProjectDiagram },
-    { name: "Architectural Patterns", description: ".NET - Moderne Architekturen und Designprinzipien", Icon: FaProjectDiagram },
-    { name: "System Architecture", description: ".NET - Moderne Architekturen und Designprinzipien", Icon: FaProjectDiagram },
-    { name: "SOLID Design Principles", description: ".NET - Moderne Architekturen und Designprinzipien", Icon: FaProjectDiagram },
-    { name: "Software Design Patterns", description: ".NET - Moderne Architekturen und Designprinzipien", Icon: FaProjectDiagram },
-    { name: "Web Services", description: ".NET - Moderne Architekturen und Designprinzipien", Icon: FaProjectDiagram },
+  architecture: [
+    { key: 'architectureDesign', Icon: FaProjectDiagram },
+    { key: 'patterns', Icon: FaProjectDiagram },
+    { key: 'systemArchitecture', Icon: FaProjectDiagram },
+    { key: 'solid', Icon: FaProjectDiagram },
+    { key: 'designPatterns', Icon: FaProjectDiagram },
+    { key: 'webservices', Icon: FaProjectDiagram },
   ],
-
-  "Tools & Platforms": [
-    { name: "GitHub", description: "", Icon: SiGithub },
-    { name: "Git", description: "1 endorsement", Icon: SiGit },
-    { name: "VS Azure devops", description: "Software Engineer at ASMPT Ltd", Icon: VscAzureDevops },
+  tools: [
+    { key: 'github', Icon: SiGithub },
+    { key: 'git', Icon: SiGit },
+    { key: 'azure', Icon: VscAzureDevops },
   ],
-
-  "Hardware & Embedded": [
-    { name: "Raspberry Pi", description: "Bachelor Thesis at Hochschule Mannheim", Icon: SiRaspberrypi },
-    { name: "Arduino", description: "", Icon: SiArduino },
-    { name: "Qt", description: "Intern at Fraunhofer IIS", Icon: SiQt },
+  hardware: [
+    { key: 'raspberry', Icon: SiRaspberrypi },
+    { key: 'arduino', Icon: SiArduino },
+    { key: 'qt', Icon: SiQt },
   ],
 };
 
 export default function Skills() {
+  const { t } = useTranslation();
+
   return (
     <section className="py-24 px-6 bg-white max-w-7xl mx-auto">
-      <h2 className="text-4xl font-bold text-center mb-16">Skills & Expertise</h2>
+      <h2 className="text-4xl font-bold text-center mb-16">{t('skills.heading')}</h2>
 
-      {Object.entries(skillsData).map(([category, skills]) => (
-        <div key={category} className="mb-14">
+      {Object.entries(skillsConfig).map(([categoryKey, skills]) => (
+        <div key={categoryKey} className="mb-14">
           <h3 className="text-2xl font-semibold mb-8 border-b-2 border-blue-600 inline-block pb-2">
-            {category}
+            {t(`skills.categories.${categoryKey}`)}
           </h3>
           <div className="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
-            {skills.map(({ name, description, Icon }, idx) => (
+            {skills.map(({ key, Icon }) => (
               <div
-                key={idx}
+                key={key}
                 className="flex items-center space-x-4 p-4 border rounded-xl shadow hover:shadow-lg transition"
               >
                 <Icon className="w-12 h-12 text-blue-600" />
                 <div>
-                  <h4 className="text-lg font-semibold">{name}</h4>
-                  {description && <p className="text-sm text-gray-600">{description}</p>}
+                  <h4 className="text-lg font-semibold">{t(`skills.items.${key}.name`)}</h4>
+                  {t(`skills.items.${key}.description`) && (
+                    <p className="text-sm text-gray-600">{t(`skills.items.${key}.description`)}</p>
+                  )}
                 </div>
               </div>
             ))}

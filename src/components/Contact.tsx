@@ -1,14 +1,20 @@
+import { useTranslation } from 'react-i18next';
 
 function Contact() {
+  const { t } = useTranslation();
+
   return (
-    <section id="contact" className="bg-gradient-to-br from-blue-900 to-indigo-800 text-white py-24 px-6 text-center">
-      <h2 className="text-4xl font-bold mb-4">Get In Touch</h2>
-      <p className="text-lg mb-8">Open to strategy, tech leadership, and innovation roles across Europe and beyond.</p>
+    <section
+      id="contact"
+      className="bg-gradient-to-br from-blue-900 to-indigo-800 text-white py-24 px-6 text-center"
+    >
+      <h2 className="text-4xl font-bold mb-4">{t('contact.heading')}</h2>
+      <p className="text-lg mb-8">{t('contact.description')}</p>
       <a
         href="mailto:herve.njanga@gmail.com"
         className="bg-white text-blue-900 px-8 py-4 rounded-full font-semibold shadow hover:bg-gray-200 transition"
       >
-        Email Me
+        {t('contact.button')}
       </a>
     </section>
   );
