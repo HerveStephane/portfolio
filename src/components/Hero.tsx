@@ -18,7 +18,7 @@ function Hero() {
       <div className="bg-white rounded-3xl shadow-2xl max-w-4xl w-full flex flex-col md:flex-row items-center p-10 md:p-16 gap-8">
         {/* Profile Image */}
         <img
-          src="/images/stephane.png"
+          src="/images/stephane.jpg"
           alt={t('hero.name')}
           className="w-48 h-48 rounded-full object-cover border-4 border-blue-600"
         />
