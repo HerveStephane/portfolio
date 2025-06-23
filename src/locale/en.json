@@ -21,7 +21,7 @@
   },
   "about": {
     "heading": "About Me",
-    "description": "I am an MBA candidate and experienced Software Engineer based in Munich with a background in aerospace, cloud-native systems, and strategic innovation. My work focuses on DevSecOps, CI/CD pipelines, automation, and infrastructure for complex applications. Through roles at ASMPT, ALTEN, and MdynamiX, I’ve developed a robust ability to blend technical expertise with strategic vision."
+    "description": "I am an MBA graduate and experienced Software Engineer based in Munich with a background in computer science, aerospace, cloud-native systems, and strategic innovation. My work focuses on DevSecOps, CI/CD pipelines, automation, and infrastructure for complex applications. Through roles at ASMPT, ALTEN, and MdynamiX, I’ve developed a robust ability to blend technical expertise with strategic vision."
   },
  "experience": {
     "heading": "Experience",
@@ -29,23 +29,23 @@
       {
         "institution": "ASMPT",
         "title": "Softwareingenieur",
-        "period": "Okt 2023 - Aug 2025",
+        "period": "Jan 2021 - Heute",
         "skills": [
-          "CI/CD-Pipelines",
-          "DevOps-Infrastruktur",
-          "Testautomatisierung in C#",
-          "Bewertung von IT-Trends",
-          "Produktmanagement & Technischer Vertrieb"
+
+          "DevOps-Infrastructure",
+          "Test Automation in C#",
+          "Exploration and Introduction of Redhat Microshift",
+          "Architecture and Tech Roadmap"
         ]
       },
        {
         "institution": "ALTEN GmbH",
         "title": "Engineering Consultant",
-        "period": "Okt 2023 - Aug 2025",
+        "period": "Apr 2019 - Dec 2020",
         "skills": [
           "System Architecture ",
-          ".NET Desktop Application",
-          "Test Automation"
+          ".NET/MVVM/WCF Desktop Application",
+          "Test Automation in C#"
         ]
       },
       {
@@ -61,10 +61,10 @@
        {
         "institution": "App Factory UG.",
         "title": "Head of Product",
-        "period": "Okt 2023 - Aug 2025",
+        "period": "Okt 2024 - Heute",
         "skills": [
           "Product Management",
-          "Responsible for public affair",
+          "Business Developement",
           "Strategy guidance and Roadmap"
         ]
       }
@@ -201,7 +201,7 @@
       },
       "csharp": {
         "name": "C#",
-        "description": "5 years Software Engineer at ASMPT"
+        "description": "5 years Software Engineer at ASMPT and 2 yeas Software Enginner at Alten GmbH"
       },
       "cpp": {
         "name": "C++",
@@ -331,13 +331,13 @@
     {
       "title": "Starter",
       "description": "Ideal for individuals or startups wanting a professional online presence.",
-      "price": "$799",
+      "price": "$915",
       "features": ["Responsive design", "SEO optimization", "Basic contact form"]
     },
     {
       "title": "Professional",
       "description": "Perfect for growing businesses looking to expand their digital reach.",
-      "price": "$2,500",
+      "price": "$2,800",
       "features": ["All Starter features", "CMS integration", "Custom animations"]
     },
     {

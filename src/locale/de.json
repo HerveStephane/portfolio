@@ -21,7 +21,7 @@
   },
   "about": {
     "heading": "Über Mich",
-    "description": "Ich bin MBA-Kandidat und erfahrener Softwareingenieur mit Sitz in München, mit einem Hintergrund in Luft- und Raumfahrt, cloud-nativen Systemen und strategischer Innovation. Meine Arbeit konzentriert sich auf DevSecOps, CI/CD-Pipelines, Automatisierung und Infrastruktur für komplexe Anwendungen. Durch Rollen bei ASMPT, ALTEN und MdynamiX habe ich eine ausgeprägte Fähigkeit entwickelt, technisches Fachwissen mit strategischer Vision zu verbinden."
+    "description": "Ich bin MBA-Absolvent und erfahrener Softwareingenieur wohnhaft in München, mit einem Hintergrund in Techinsche Informatik, Luft- und Raumfahrt, cloud-nativen Systemen und strategischer Innovation. Meine Arbeit konzentriert sich auf DevSecOps, CI/CD-Pipelines, Automatisierung und Infrastruktur für komplexe Anwendungen. Durch Rollen bei ASMPT, ALTEN und MdynamiX habe ich eine ausgeprägte Fähigkeit entwickelt, technisches Fachwissen mit strategischer Vision zu verbinden."
   },
 
   "experience": {
@@ -30,39 +30,38 @@
       {
         "institution": "ASMPT",
         "title": "Softwareingenieur",
-        "period": "Okt 2023 - Aug 2025",
+        "period": "Jan 2021 - Heute",
         "skills": [
-          "CI/CD-Pipelines",
           "DevOps-Infrastruktur",
           "Testautomatisierung in C#",
-          "Bewertung von IT-Trends",
-          "Produktmanagement & Technischer Vertrieb"
+          "Einführung von Redhat Microshift",
+          "Architecture and Tech Roadmap"
         ]
       },
       {
         "institution": "ALTEN GmbH",
         "title": "Engineering Consultant",
-        "period": "Okt 2023 - Aug 2025",
+        "period": "Apr 2019 - Dec 2021",
         "skills": [
           "System Architecture ",
-          ".NET Desktop Anwendung",
-          "Testautomatisierung"
+          ".NET/MVVM/WCF Desktop Anwendung",
+          "Testautomatisierung in C#"
         ]
       },
       {
         "institution": "Tchoco Inc.",
         "title": "Head of Product",
-        "period": "Okt 2023 - Aug 2025",
+        "period": "Dec 2024 - Heute",
         "skills": [
-          "System Architecture ",
-          ".NET Desktop Anwendung",
-          "Testautomatisierung"
+          "System Architecture",
+          "Business Development",
+          "Product Vision"
         ]
       },
        {
         "institution": "App Factory UG.",
         "title": "Head of Product",
-        "period": "Okt 2023 - Aug 2025",
+        "period": "Okt 2024 - Heute",
         "skills": [
           "Product Management",
           "Verantwortung für Behörde Projekten",
@@ -189,7 +188,7 @@
       },
       "csharp": {
         "name": "C#",
-        "description": "5 Jahre Softwareentwickler bei ASMPT"
+        "description": "5 Jahre Softwareentwickler bei ASMPT, 2 Jahre Alten GmbH"
       },
       "cpp": {
         "name": "C++",
