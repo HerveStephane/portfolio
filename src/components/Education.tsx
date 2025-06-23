@@ -44,7 +44,7 @@ function Education() {
                   {gradeLabel}: {edu.grade}
                 </p>
               )}
-              <ul className="text-left text-gray-700 list-disc list-inside max-w-xs">
+              <ul className="text-left text-gray-700 list-disc list-outside pl-5 max-w-xs">
                 {edu.details.map((item, idx) => (
                   <li key={idx} className="mb-1">{item}</li>
                 ))}

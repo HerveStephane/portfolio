@@ -34,7 +34,7 @@ function Experience() {
               <h3 className="text-xl font-semibold mb-1 text-center">{item.institution}</h3>
               <p className="text-gray-700 font-medium text-center mb-1">{item.title}</p>
               <p className="text-sm text-gray-500 mb-2">{item.period}</p>
-               <ul className="text-left text-gray-700 list-disc list-inside max-w-xs">
+               <ul className="text-left text-gray-700 list-disc list-outside pl-5 max-w-xs">
                 {item.skills.map((skill, idx) => (
                   <li key={idx} className="mb-1">{skill}</li>
                 ))}
