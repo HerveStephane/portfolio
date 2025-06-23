@@ -23,15 +23,54 @@
     "heading": "About Me",
     "description": "I am an MBA candidate and experienced Software Engineer based in Munich with a background in aerospace, cloud-native systems, and strategic innovation. My work focuses on DevSecOps, CI/CD pipelines, automation, and infrastructure for complex applications. Through roles at ASMPT, ALTEN, and MdynamiX, I’ve developed a robust ability to blend technical expertise with strategic vision."
   },
-  "experience": {
-    "heading": "Experience Highlights",
+ "experience": {
+    "heading": "Experience",
     "items": [
-      "💡 Software Engineer @ ASMPT: CI/CD pipelines, DevOps infra, test automation in C#",
-      "📚 MBA Thesis: DevSecOps challenges for cloud-native applications using Kubernetes & Docker",
-      "🚀 Engineering Consultant @ ALTEN: MES engineering & .NET software development",
-      "🌱 Young Talents Programme: Strategy, innovation & business network development",
-      "✈️ MSc Aerospace Engineering: Space systems, propulsion, flight dynamics"
-    ]
+      {
+        "institution": "ASMPT",
+        "title": "Softwareingenieur",
+        "period": "Okt 2023 - Aug 2025",
+        "skills": [
+          "CI/CD-Pipelines",
+          "DevOps-Infrastruktur",
+          "Testautomatisierung in C#",
+          "Bewertung von IT-Trends",
+          "Produktmanagement & Technischer Vertrieb"
+        ]
+      },
+       {
+        "institution": "ALTEN GmbH",
+        "title": "Engineering Consultant",
+        "period": "Okt 2023 - Aug 2025",
+        "skills": [
+          "System Architecture ",
+          ".NET Desktop Application",
+          "Test Automation"
+        ]
+      },
+      {
+        "institution": "Tchoco Inc.",
+        "title": "Head of Product",
+        "period": "Okt 2023 - Aug 2025",
+        "skills": [
+          "System Architecture ",
+          "Manage launch of Tchoco app",
+          "Strategy guidance and Roadmap"
+        ]
+      },
+       {
+        "institution": "App Factory UG.",
+        "title": "Head of Product",
+        "period": "Okt 2023 - Aug 2025",
+        "skills": [
+          "Product Management",
+          "Responsible for public affair",
+          "Strategy guidance and Roadmap"
+        ]
+      }
+    ],
+    "gradeLabel": "Note",
+    "skillsLabel": "Fähigkeiten"
   },
   "projects": {
     "visitLink": "Visit Project Website",
