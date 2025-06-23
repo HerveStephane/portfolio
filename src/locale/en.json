@@ -21,7 +21,7 @@
   },
   "about": {
     "heading": "About Me",
-    "description": "I am an MBA graduate and experienced Software Engineer based in Munich with a background in computer science, aerospace, cloud-native systems, and strategic innovation. My work focuses on DevSecOps, CI/CD pipelines, automation, and infrastructure for complex applications. Through roles at ASMPT, ALTEN, and MdynamiX, I’ve developed a robust ability to blend technical expertise with strategic vision."
+    "description": "I am an MBA graduate and experienced Software Engineer based in Munich with a background in computer science, aerospace, cloud-native systems, and strategic innovation. My work focuses on .NET / React Software development, DevSecOps, CI/CD pipelines, automation, and infrastructure for complex applications. Through roles at ASMPT, Tchoco, ALTEN, and MdynamiX, I’ve developed a robust ability to blend technical expertise with strategic vision."
   },
  "experience": {
     "heading": "Experience",
@@ -262,18 +262,6 @@
       "azure": {
         "name": "VS Azure DevOps",
         "description": "Software Engineer at ASMPT Ltd"
-      },
-      "raspberry": {
-        "name": "Raspberry Pi",
-        "description": "Bachelor Thesis at Hochschule Mannheim"
-      },
-      "arduino": {
-        "name": "Arduino",
-        "description": ""
-      },
-      "qt": {
-        "name": "Qt",
-        "description": "Intern at Fraunhofer IIS"
       }
     }
   },

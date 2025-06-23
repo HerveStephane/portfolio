@@ -21,7 +21,7 @@
   },
   "about": {
     "heading": "Über Mich",
-    "description": "Ich bin MBA-Absolvent und erfahrener Softwareingenieur wohnhaft in München, mit einem Hintergrund in Techinsche Informatik, Luft- und Raumfahrt, cloud-nativen Systemen und strategischer Innovation. Meine Arbeit konzentriert sich auf DevSecOps, CI/CD-Pipelines, Automatisierung und Infrastruktur für komplexe Anwendungen. Durch Rollen bei ASMPT, ALTEN und MdynamiX habe ich eine ausgeprägte Fähigkeit entwickelt, technisches Fachwissen mit strategischer Vision zu verbinden."
+    "description": "Ich bin MBA-Absolvent und erfahrener Softwareingenieur wohnhaft in München, mit einem Hintergrund in Technische Informatik, Luft- und Raumfahrt, cloud-nativen Systemen und strategischer Innovation. Meine Arbeit konzentriert sich auf Softwareentwicklung in .NET / React, DevSecOps, CI/CD-Pipelines, Automatisierung und Infrastruktur für komplexe Anwendungen. Durch Rollen bei ASMPT, ALTEN und MdynamiX habe ich eine ausgeprägte Fähigkeit entwickelt, technisches Fachwissen mit strategischer Vision zu verbinden."
   },
 
   "experience": {
@@ -253,14 +253,6 @@
       "raspberry": {
         "name": "Raspberry Pi",
         "description": "Bachelorarbeit an der Hochschule Mannheim"
-      },
-      "arduino": {
-        "name": "Arduino",
-        "description": ""
-      },
-      "qt": {
-        "name": "Qt",
-        "description": "Praktikum bei Fraunhofer IIS"
       }
     }
   },
