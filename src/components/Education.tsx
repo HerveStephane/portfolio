@@ -2,8 +2,8 @@ import { useTranslation } from 'react-i18next';
 
 const logos = [
   "/images/hm.png",
-  "/images/mannheim.jpg",
-  "/images/mannheim.jpg",
+  "/images/mannheim.png",
+  "/images/mannheim.png",
 ];
 
 function Education() {
