@@ -12,6 +12,7 @@ import Testimonials from './components/Testimonials';
 import Navbar from './components/Navbar';
 import Services from './components/Service';
 import { Analytics as Vercel } from '@vercel/analytics/react';
+import { SpeedInsights } from "@vercel/speed-insights/react"
 
 function App() {
   return (
@@ -29,6 +30,7 @@ function App() {
       <Contact />
       <Footer/>
       <Vercel/>
+      <SpeedInsights/>
     </main>
   );
 }
