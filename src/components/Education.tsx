@@ -2,7 +2,7 @@ import { useTranslation } from 'react-i18next';
 
 const logos = [
   "/images/hm.png",
-  "/images/mannheim.png",
+  "/images/hm.png",
   "/images/mannheim.png",
 ];
 
