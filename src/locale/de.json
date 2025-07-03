@@ -28,7 +28,7 @@
     "heading": "Erfahrung",
     "items": [
       {
-        "institution": "ASMPT",
+        "institution": "ASMPT Ltd",
         "title": "Softwareingenieur",
         "period": "Jan 2021 - Heute",
         "skills": [
@@ -178,7 +178,7 @@
       },
       "csharp": {
         "name": "C#",
-        "description": "5 Jahre Softwareentwickler bei ASMPT, 2 Jahre Alten GmbH"
+        "description": "5 Jahre Softwareentwickler bei ASMPT Ltd, 2 Jahre Alten GmbH"
       },
       "cpp": {
         "name": "C++",

@@ -27,7 +27,7 @@
     "heading": "Experience",
     "items": [
       {
-        "institution": "ASMPT",
+        "institution": "ASMPT Ltd",
         "title": "Softwareingenieur",
         "period": "Jan 2021 - Heute",
         "skills": [
@@ -191,7 +191,7 @@
       },
       "csharp": {
         "name": "C#",
-        "description": "5 years Software Engineer at ASMPT and 2 yeas Software Enginner at Alten GmbH"
+        "description": "5 years Software Engineer at ASMPT Ltd and 2 yeas Software Enginner at Alten GmbH"
       },
       "cpp": {
         "name": "C++",
