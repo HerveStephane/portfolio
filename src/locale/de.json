@@ -1,6 +1,6 @@
 {
   "hero": {
-  "name": "Hervé Stéphane Njanga Njafang",
+  "name": "Hervé Stéphane Njanga Njafang, MBA",
   "tagline": {
     "mba": "Master of Science and MBA",
     "fullstack": "Fullstack Softwareentwickler",
@@ -56,16 +56,6 @@
           "System Architecture",
           "Business Development",
           "Product Vision"
-        ]
-      },
-       {
-        "institution": "App Factory UG.",
-        "title": "Head of Product",
-        "period": "Okt 2024 - Heute",
-        "skills": [
-          "Product Management",
-          "Verantwortung für Behörde Projekten",
-          "Verantwortung für Strategy"
         ]
       }
      
@@ -266,13 +256,13 @@
     "subheading": "Erfahrungen von Kollegen, Kunden und Partnern, die mit mir zusammengearbeitet haben.",
     "persons": [
       {
-        "name": "ASMPT GmbH & co kg",
+        "name": "ASMPT Ltd",
         "role": "Director DevSecOps and Architecture",
         "feedback": "Hervés Führungsqualitäten und technische Fähigkeiten führten unser Projekt vorzeitig zum Erfolg.",
         "linkedin": "https://www.asmpt.com/"
       },
       {
-        "name": "ASMPT GmbH & co kg",
+        "name": "ASMPT Ltd",
         "role": "Senior Manager System Engineering",
         "feedback": "Ein brillanter Ingenieur mit großem Gespür für innovative Softwareentwicklung.",
         "linkedin": "https://www.asmpt.com/"
@@ -284,7 +274,7 @@
         "linkedin": "https://www.alten-germany.de/"
       },
       {
-        "name": "Vector Informatik",
+        "name": "Vector Informatik GmbH",
         "role": "Senior Manager",
         "feedback":  "Professionell, engagiert und innovativ – eine echte Bereicherung für jedes Team.",
         "linkedin": "https://www.vector.com/de/de/"

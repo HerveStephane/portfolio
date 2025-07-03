@@ -14,7 +14,7 @@ const Navbar: React.FC = () => {
       <div className="max-w-6xl mx-auto px-6 flex justify-between items-center h-16">
         {/* Logo or Name */}
         <a href="#hero" className="text-xl font-bold text-primary-700">
-          MBA, Hervé Stephane Njanga
+          Hervé Stephane Njanga, MBA
         </a>
 
         {/* Desktop Menu */}

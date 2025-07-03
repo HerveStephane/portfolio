@@ -1,6 +1,6 @@
 {
   "hero": {
-    "name": "Hervé Stéphane Njanga Njafang",
+    "name": "Hervé Stéphane Njanga Njafang, MBA",
     "tagline": {
       "mba": "Master of Science and MBA",
       "fullstack": "Fullstack Software Engineer",
@@ -55,16 +55,6 @@
         "skills": [
           "System Architecture ",
           "Manage launch of Tchoco app",
-          "Strategy guidance and Roadmap"
-        ]
-      },
-       {
-        "institution": "App Factory UG.",
-        "title": "Head of Product",
-        "period": "Okt 2024 - Heute",
-        "skills": [
-          "Product Management",
-          "Business Developement",
           "Strategy guidance and Roadmap"
         ]
       }
@@ -279,13 +269,13 @@
     "subheading": "Testimonials from colleagues, clients, and partners who have worked with me.",
     "persons": [
       {
-        "name": "ASMPT GmbH & co kg",
+        "name": "ASMPT Ltd",
         "role": "Director DevSecOps and Architecture",
         "feedback": "Hervé’s leadership and technical skills brought our project to success ahead of schedule.",
         "linkedin": "https://www.asmpt.com/"
       },
       {
-        "name": "ASMPT GmbH & co kg",
+        "name": "ASMPT Ltd",
         "role": "Senior Manager System Engineering",
         "feedback": "A brilliant engineer with a great vision for innovative software development.",
         "linkedin": "https://www.asmpt.com/"
@@ -297,7 +287,7 @@
         "linkedin": "https://hm.edu/kontakte_de/contact_detail_2447.de.html"
       },
       {
-        "name": "Vector Informatik",
+        "name": "Vector Informatik GmbH",
         "role": "Senior Manager",
         "feedback":"Professional, dedicated, and innovative — a true asset to any team.", 
         "linkedin": "https://www.vector.com/us/en/"
