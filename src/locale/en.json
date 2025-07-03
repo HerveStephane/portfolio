@@ -73,7 +73,7 @@
     "skillsLabel": "Fähigkeiten"
   },
   "projects": {
-    "visitLink": "Visit Project Website",
+    "visitLink": "Visit Website",
     "heading": "Strategic Projects",
     "subheading": "Key initiatives I've driven across engineering and business strategy:",
     "items": [
@@ -279,28 +279,28 @@
     "subheading": "Testimonials from colleagues, clients, and partners who have worked with me.",
     "persons": [
       {
-        "name": "Alice Johnson",
-        "role": "Project Manager at TechCorp",
+        "name": "ASMPT GmbH & co kg",
+        "role": "Director DevSecOps and Architecture",
         "feedback": "Hervé’s leadership and technical skills brought our project to success ahead of schedule.",
-        "linkedin": "https://linkedin.com/in/janedoe"
+        "linkedin": "https://www.asmpt.com/"
       },
       {
-        "name": "Michael Smith",
-        "role": "CTO at FinSolutions",
-        "feedback": "A brilliant engineer with a great vision for scalable software architecture.",
-        "linkedin": "https://linkedin.com/in/janedoe"
+        "name": "ASMPT GmbH & co kg",
+        "role": "Senior Manager System Engineering",
+        "feedback": "A brilliant engineer with a great vision for innovative software development.",
+        "linkedin": "https://www.asmpt.com/"
       },
       {
-        "name": "Sophie Müller",
-        "role": "Product Owner at InnovateX",
-        "feedback": "Professional, dedicated, and innovative — a true asset to any team.",
-        "linkedin": "https://linkedin.com/in/janedoe"
-      },
-      {
-        "name": "Lars Becker",
-        "role": "DevOps Specialist",
+        "name": "Hochschule München",
+        "role": "Head of IT at the Faculty of Industrial Engineering",
         "feedback": "Expert in DevSecOps practices, Hervé streamlined our CI/CD pipelines flawlessly.",
-        "linkedin": "https://linkedin.com/in/janedoe"
+        "linkedin": "https://hm.edu/kontakte_de/contact_detail_2447.de.html"
+      },
+      {
+        "name": "Vector Informatik",
+        "role": "Senior Manager",
+        "feedback":"Professional, dedicated, and innovative — a true asset to any team.", 
+        "linkedin": "https://www.vector.com/us/en/"
       }
     ]
   },

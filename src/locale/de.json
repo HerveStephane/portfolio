@@ -75,13 +75,13 @@
   },
     "projects": {
     "heading": "Strategische Projekte",
-    "visitLink": "Projektwebseite besuchen",
+    "visitLink": "Webseite besuchen",
     "subheading": "Schlüsselinitiativen, die ich in Technik und Geschäftsstrategie vorangetrieben habe:",
     "items": [
       {
         "title": "DevOps-Infrastruktur für ASMPT",
         "description": "Entwicklung und Bereitstellung automatisierter Tests und CI/CD-Pipelines zur Verbesserung der Release-Effizienz und Qualitätssicherung.",
-        "webpage": "https://example-ai.com"
+        "webpage": "https://www.asmpt.com/"
       },
       {
         "title": "Geschäftsorientierte DevSecOps-Forschung",
@@ -266,28 +266,28 @@
     "subheading": "Erfahrungen von Kollegen, Kunden und Partnern, die mit mir zusammengearbeitet haben.",
     "persons": [
       {
-        "name": "Alice Johnson",
-        "role": "Projektleiterin bei TechCorp",
+        "name": "ASMPT GmbH & co kg",
+        "role": "Director DevSecOps and Architecture",
         "feedback": "Hervés Führungsqualitäten und technische Fähigkeiten führten unser Projekt vorzeitig zum Erfolg.",
-        "linkedin": "https://linkedin.com/in/janedoe"
+        "linkedin": "https://www.asmpt.com/"
       },
       {
-        "name": "Michael Smith",
-        "role": "CTO bei FinSolutions",
-        "feedback": "Ein brillanter Ingenieur mit großem Gespür für skalierbare Softwarearchitektur.",
-        "linkedin": "https://linkedin.com/in/janedoe"
-      },
+        "name": "ASMPT GmbH & co kg",
+        "role": "Senior Manager System Engineering",
+        "feedback": "Ein brillanter Ingenieur mit großem Gespür für innovativ Software development.",
+        "linkedin": "https://www.asmpt.com/"
+      },  
       {
-        "name": "Sophie Müller",
-        "role": "Product Owner bei InnovateX",
-        "feedback": "Professionell, engagiert und innovativ – eine echte Bereicherung für jedes Team.",
-        "linkedin": "https://linkedin.com/in/janedoe"
-      },
-      {
-        "name": "Lars Becker",
-        "role": "DevOps Spezialist",
+        "name": "Hochschule München",
+        "role": "Leiter der IT-Abteilung an der Fakultät für Wirtschaftsingenieurwesen",
         "feedback": "Experte für DevSecOps, Hervé hat unsere CI/CD-Pipelines makellos optimiert.",
-        "linkedin": "https://linkedin.com/in/janedoe"
+        "linkedin": "https://www.alten-germany.de/"
+      },
+      {
+        "name": "Vector Informatik",
+        "role": "Senior Manager",
+        "feedback":  "Professionell, engagiert und innovativ – eine echte Bereicherung für jedes Team.",
+        "linkedin": "https://www.vector.com/de/de/"
       }
     ]
   },

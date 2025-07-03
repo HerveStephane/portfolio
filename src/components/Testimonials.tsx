@@ -1,5 +1,5 @@
 import { useTranslation } from 'react-i18next';
-import { FiLinkedin } from 'react-icons/fi';
+import { FiExternalLink, FiLinkedin } from 'react-icons/fi';
 
 function Testimonials() {
   const { t } = useTranslation();
@@ -35,8 +35,8 @@ function Testimonials() {
                     aria-label={`${name} LinkedIn`}
                     className="inline-flex items-center text-blue-600 hover:text-blue-800"
                   >
-                    <FiLinkedin className="mr-1" />
-                    LinkedIn
+                    <FiExternalLink className="mr-2" />
+                    {t('projects.visitLink', 'Visit Website')}
                   </a>
                 )}
               </div>

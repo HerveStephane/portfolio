@@ -33,17 +33,7 @@ function Projects() {
               <div className="flex justify-center">{icons[idx]}</div>
               <h3 className="text-2xl font-semibold mb-4 text-blue-700">{title}</h3>
               <p className="text-gray-700 leading-relaxed mb-6">{description}</p>
-              {webpage && (
-                <a
-                  href={webpage}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-flex items-center text-blue-600 hover:underline mt-auto"
-                >
-                  <FiExternalLink className="mr-2" />
-                  {t('projects.visitLink', 'Visit Project Website')}
-                </a>
-              )}
+              
             </div>
           ))}
         </div>
