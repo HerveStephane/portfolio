@@ -30,18 +30,8 @@ const Navbar: React.FC = () => {
             </a>
           </li>
           <li>
-            <a href="#services" className="hover:text-primary-600 transition">
-              {t('navbar.services')}
-            </a>
-          </li>
-          <li>
             <a href="#testimonial" className="hover:text-primary-600 transition">
               {t('navbar.testimonials')}
-            </a>
-          </li>
-          <li>
-            <a href="#contact" className="hover:text-primary-600 transition">
-              {t('navbar.contact')}
             </a>
           </li>
         </ul>
@@ -90,20 +80,6 @@ const Navbar: React.FC = () => {
                 className="block hover:text-primary-600 transition"
               >
                 {t('navbar.testimonials')}
-              </a>
-            </li>
-            <li>
-              <a href="#services" className="hover:text-primary-600 transition">
-                {t('navbar.services')}
-              </a>
-            </li>
-            <li>
-              <a
-                href="#contact"
-                onClick={() => setIsOpen(false)}
-                className="block hover:text-primary-600 transition"
-              >
-                {t('navbar.contact')}
               </a>
             </li>
             {/* LanguageSwitcher under Contact */}

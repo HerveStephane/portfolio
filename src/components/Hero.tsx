@@ -1,5 +1,6 @@
 import { useTranslation } from 'react-i18next';
 import { FaGraduationCap, FaCode, FaRocket, FaShieldAlt } from 'react-icons/fa';
+import { FiLinkedin } from 'react-icons/fi';
 
 function Hero() {
   const { t } = useTranslation();
@@ -39,10 +40,15 @@ function Hero() {
           </p>
 
           <a
-            href="#contact"
-            className="mt-6 inline-block bg-blue-700 text-white px-8 py-3 rounded-full font-semibold shadow-lg hover:bg-blue-800 transition"
+            href="https://www.linkedin.com/in/herve-stephane-njanga-njafang-73055b142/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center space-x-2 bg-white text-blue-800 px-4 py-2 rounded-full shadow-lg hover:bg-gray-100 transition"
+            aria-label="LinkedIn Profile"
           >
-            {t('hero.connect')}
+            <FiLinkedin size={24} />
+            <span className="font-semibold">{t('hero.connect')}</span>
+
           </a>
         </div>
       </div>

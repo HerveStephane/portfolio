@@ -10,7 +10,6 @@ import Skills from './components/Skills';
 import Analytics from './components/Analytics';
 import Testimonials from './components/Testimonials';
 import Navbar from './components/Navbar';
-import Services from './components/Service';
 import { Analytics as Vercel } from '@vercel/analytics/react';
 import { SpeedInsights } from "@vercel/speed-insights/react"
 
@@ -23,11 +22,9 @@ function App() {
       <About />
       <Experience />
       <Projects />
-      <Services/>
       <Analytics/>
       <Education/>
       <Skills/>
-      <Contact />
       <Footer/>
       <Vercel/>
       <SpeedInsights/>
