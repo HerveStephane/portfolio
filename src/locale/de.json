@@ -21,7 +21,7 @@
   },
   "about": {
     "heading": "Über Mich",
-    "description": "Ich bin MBA-Absolvent und erfahrener Softwareingenieur wohnhaft in München, mit einem Hintergrund in Technische Informatik, Luft- und Raumfahrt, cloud-nativen Systemen und strategischer Innovation. Meine Arbeit konzentriert sich auf Softwareentwicklung in .NET / React, DevSecOps, CI/CD-Pipelines, Automatisierung und Infrastruktur für komplexe Anwendungen. Durch Rollen bei ASMPT, ALTEN und Vector Informatik habe ich eine ausgeprägte Fähigkeit entwickelt, technisches Fachwissen mit strategischer Vision zu verbinden."
+    "description": "Ich bin MBA-Absolvent und erfahrener Softwareingenieur wohnhaft in München, mit einem Hintergrund in Technische Informatik, Luft- und Raumfahrt, cloud-nativen Systemen und strategischer Innovation. Meine Arbeit konzentriert sich auf Softwareentwicklung in .NET / React, DevSecOps, CI/CD-Pipelines, Automatisierung und Infrastruktur für komplexe Anwendungen. Durch Rollen bei ASMPT, ALTEN,TCHOCO und Vector Informatik habe ich eine ausgeprägte Fähigkeit entwickelt, technisches Fachwissen mit strategischer Vision zu verbinden."
   },
 
   "experience": {
@@ -80,7 +80,7 @@
     "items": [
       {
         "title": "DevOps-Infrastruktur für ASMPT",
-        "description": "Entwicklung und Bereitstellung automatisierter Tests und CI/CD-Pipelines zur Verbesserung der Release-Effizienz und Qualitätssicherung.",
+        "description": "Entwicklung und Bereitstellung automatisierter Tests und CI/CD-Pipelines zur Verbesserung der Release-Effizienz um 80% und Qualitätssicherung.",
         "webpage": "https://www.asmpt.com/"
       },
       {
